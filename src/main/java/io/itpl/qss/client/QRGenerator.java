@@ -48,7 +48,7 @@ public class QRGenerator {
 /**
  * 
  * @param newQRConfig  QRConfig object to replace with.
- * @throws com.iwantunlimited.qss.exception.QREncoderException in case QRConfiguration is invalid.
+ * @throws io.itpl.qss.exception.QREncoderException in case QRConfiguration is invalid.
  */
     public void setQRConfig(QRConfig newQRConfig)throws QREncoderException {
     	if(newQRConfig != null && newQRConfig.validate())

@@ -72,7 +72,7 @@ public class DataHelper {
 	 * </ul>
 	 * @param contactInfo (Hashtable object with key and value both are string) with format as described.
 	 * @return The VCard4.0 in String format (UTF-8)
-	 * @throws com.iwantunlimited.qss.exception.QREncoderException in case data is missing or having incorrect format.
+	 * @throws io.itpl.qss.exception.QREncoderException in case data is missing or having incorrect format.
 	 * 
 	 * */
 	public static String createVCardFrom(Hashtable<String,String> contactInfo) throws QREncoderException {

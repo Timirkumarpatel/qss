@@ -124,8 +124,9 @@ public class QRCode {
     }
     /**
      * Render the QRCode to the Image and return it as a BufferedImage.
+	 * @param source Input Buffered Image
      * @return BufferedImage of the QRCode. The image will contain only QRCode, without any logo image or margins.
-     * @throws InvalidQRConfigException in case failure of QR Data, version and scale.
+     *
      * */
 
     
